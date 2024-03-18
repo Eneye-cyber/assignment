@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>G_Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!-- Header  -->
+  <header class="header">
+    <div class="container flex header__container">
+      <a href="./index.html" class="header__logo flex" role="link" aria-labelledby="Link to homepage">
+        <img loading="lazy" src="logo.svg" alt="logo" role="presentation">
+      </a>
+
+      <div class="flex header__form w-full">
+        <div class="search__container flex item-center">
+          <img loading="lazy" src="./search.svg" alt="search" class="search__icon">
+          <input type="text" name="search" id="search" class="search__input" placeholder="Search products">
+        </div>
+        <button class="search__btn flex-center">Search</button>
+      </div>
+
+      <nav class="flex">
+        <a href="./index.html" class="flex-column item-center justify-center">
+          <img loading="lazy" src="./heart.svg" alt="favourites" role="presentation">
+          <p>Wishlist</p>
+        </a>
+
+        <a href="./index.html" class="flex-column item-center justify-center">
+          <img loading="lazy" src="./cart.svg" alt="favourites" role="presentation">
+          <p>Trolley</p>
+        </a>
+      </nav>
+
+    </div>
+  </header>
+    
+  <main>
+    <section class="popular__section">
+      <div class="container">
+        <h3 class="popular__section-heading">Popular Items</h3>
+
+        <hr class="popular__section-divider">
+
+        <div class="flex popular__section-flex">
+          <div class="popular__section-card flex-col-3 flex-column">
+            <figure >
+              <img loading="lazy" width="100%" height="auto" src="./camera1.png" alt="Camera1">
+              <figcaption>
+                <p>Nikon D90 DSLR CAMERA WITH 18 TO 105,MM LENS</p>
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+
+                <p class="price">£174.99</p>
+              </figcaption>
+            </figure>
+
+            <div class="btn-group flex ">
+              <button class="cart__btn flex-center">
+                <img loading="lazy" src="./cart-white.svg" alt="add to cart">
+                <p>Add to trolley</p>
+              </button>
+
+              <button class="icon__btn flex-center">
+                <img loading="lazy" src="./heart-red.svg" alt="add to cart">
+              </button>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container grid grid-cols-2">
+      <div class="footer-box flex item-center justify-center">
+        <div class="text-center">
+          <h4 class=""><strong>Returning an item</strong></h4>
+          <br>
+          <p class="">For returns, product support and repairs</p>
+          <a href="#" class="link"><strong>Learn more here</strong></a>
+        </div>
+      </div>
+      <div class="footer-box flex item-center justify-center">
+        <div class="text-center">
+          <h4 class=""><strong>Payment methods</strong></h4>
+          <br>
+          
+          <div class="flex footer-gap">
+            <img loading="lazy" src="./maestro.png" alt="maestro">
+            <img loading="lazy" src="./mastercard.png" alt="mastercard">
+            <img loading="lazy" src="./Nectar.png" alt="Nectar">
+          </div>
+          <div class="flex footer-gap">
+            <img loading="lazy" src="./One4All.png" alt="One4All">
+            <img loading="lazy" src="./visa.webp" alt="visa">
+            <img loading="lazy" src="./paypal.png" alt="paypal">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <div class="footer-box flex item-center justify-center">
+      <p>© 2024. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
