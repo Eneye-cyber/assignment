@@ -243,6 +243,20 @@ nav{
     margin-bottom: 1.5rem;
   }
 
+  .product__section-image {
+    height: 228px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: .75rem;
+  }
+
+  .product__section-image img{
+    max-height: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-width: 100%;
+  }
+
   .flex-col-3 {
     flex: 0 0 25%;
     min-width: 300px;

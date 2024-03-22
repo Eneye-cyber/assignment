@@ -1,0 +1,165 @@
+[
+  {
+    "index": 1,
+    "Product_Name": "Tropical Sun Golden Sella Rice 10kg",
+    "brand": "Tropical Sun",
+    "image": "./food1.png",
+    "category": "food",
+    "Description": [
+      "Stands high in terms of unmatched quality, richa aroma, strong flavour and standard grain size."
+    ],
+    "Price": 18.99,
+    "Quantity_Available": 500,
+    "no_of_views": 1200,
+    "rating": 4.5
+  },
+  {
+    "index": 2,
+    "Product_Name": "Doves Farm - Org Brown Rice Penne | 500g",
+    "brand": "Doves Farm",
+    "category": "food",
+    "image":"./food2.jpg",
+    "Description": [
+      "Wonderful penne pasta alternative.",
+      "Gluten Free Penne is ideal for use at home", 
+      "Ingredients from more than one country."
+    ],
+    "Price": 15.26,
+    "Quantity_Available": 300,
+    "no_of_views": 900,
+    "rating": 4.2
+  },
+  {
+    "index": 3,
+    "Product_Name": "Cipriani Tagliolini 30% Protein, Durum Wheat and Egg White Specialty Food, 12 x 250 Grams",
+    "brand": "Cipriani",
+    "category": "food",
+    "image":"./food3.jpg",
+    "Description": [
+      "Tagliolini 30% protein: durum wheat and egg white - 12 packs of 250 g / 8.82 oz",
+      "Ideal for sports enthusiasts and high-protein diets ",
+      "Combines traditional taste and texture with the demands of modern nutrition", 
+      "Vegetarian, Lactose-free, Dairy-free, Kosher ✅ OGM free ❌"
+    ],
+    "Price": 76.49,
+    "Quantity_Available": 300,
+    "no_of_views": 900,
+    "rating": 4.2
+  },
+  {
+    "index": 4,
+    "Product_Name": " Mens Winter Coat Mid Length Thick Wool Trench Coats Regular Fit Padded Military Peacoat",
+    "category": "clothing",
+    "brand": "YOUTHUP",
+    "image": "./clothing1.jpg",
+    "Description": [
+      "Mens wool coat with single breasted,double layer turndown collar and padded lining",
+      "Men's thick pea coat is a good choice in cold weather,and suitable for casual wear,daily wear,office wear etc",
+      "Whether at home or on your daily commute, the men coat certainly be an investment you'll never regret in your wardrobe"
+    ],
+    "Price": 29.99,
+    "Quantity_Available": 200,
+    "no_of_views": 1500,
+    "rating": 4.7
+  },
+  {
+    "index": 5,
+    "Product_Name": "Women's Royal High Waist Skinny-fit Jeans",
+    "brand": "ONLY",
+    "category": "clothing",
+    "image": "./clothing2.jpg",
+    "Description": [
+      "Classic slim fit jeans with a flattering silhouette.",
+      "Crafted from stretch denim for comfort and mobility.",
+      "Perfect for casual outings or dressing up with heels."
+    ],
+    "Price": 39.99,
+    "Quantity_Available": 150,
+    "no_of_views": 1800,
+    "rating": 4.5
+  },
+  {
+    "index": 6,
+    "Product_Name": "Unisex College Hooded Sweatshirt/Hoodie",
+    "category": "clothing",
+    "brand": "Awdis",
+    "image": "./clothing3.jpg",
+    "Description": [
+      "Double stitching.",
+      "Double layer hood with matching coloured drawstring.",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem."
+    ],
+    "Price": 49.99,
+    "Quantity_Available": 100,
+    "no_of_views": 2200,
+    "rating": 4.3
+  },
+  {
+    "index": 7,
+    "Product_Name": "Canon EOS Rebel T7i",
+    "brand": "Canon",
+    "category": "camera",
+    "image": "./camera2.jpg",
+    "Description": [
+      "24.2 Megapixel CMOS (APS-C) sensor",
+      "Built-in Wi-Fi, NFC and Bluetooth",
+      "High-Speed continuous shooting at up to 6.0 fps",
+      "Optical Viewfinder with a 45-point All Cross-type AF System"
+    ],
+    "Price": 699.99,
+    "Quantity_Available": 50,
+    "no_of_views": 1200,
+    "rating": 4.5
+  },
+  {
+    "index": 7,
+    "Product_Name": "Nikon D7500",
+    "brand": "Nikon",
+    "category": "camera",
+    "image": "./camera1.png",
+    "Description": [
+      "20.9-megapixel DX-format image sensor",
+      "EXPEED 5 image processing",
+      "4K Ultra HD and 1080p Full HD video with stereo sound",
+      "Built-in Wi-Fi and Bluetooth for easy sharing and remote control"
+    ],
+    "Price": 999.99,
+    "Quantity_Available": 30,
+    "no_of_views": 900,
+    "rating": 4.2
+  },
+  {
+    "index": 9,
+    "Product_Name": "Sony Alpha A7 III",
+    "brand": "Sony",
+    "category": "camera",
+    "image": "./camera3.jpg",
+    "Description": [
+      "24.2MP full frame BSI image sensor",
+      "4K HDR video and 24.2MP stills from 6K oversampling",
+      "RESPONSIVE AUTOFOCUS: rely on Real Time tracking and Eye AF (humananimal) to keep your subject sharp in any situation",
+      "PROFESSIONAL VIDEOMAKING: Full-pixel readout with no pixel binning for high-resolution 4K HDR movie recording"
+    ],
+    "Price": 1513.00,
+    "Quantity_Available": 40,
+    "no_of_views": 1500,
+    "rating": 4.7
+  },
+  {
+    "index": 10,
+    "Product_Name": "Canon EOS 2000D DSLR Camera and EF-S 18-55 mm f/3.5-5.6 IS II Lens - Black",
+    "brand": "Canon",
+    "category": "camera",
+    "image": "./camera4.jpg",
+    "Description": [
+      "24.1 Megapixel CMOS (APS-C) sensor",
+      "High-Speed continuous shooting at up to 6.0 fps",
+      "Optical Viewfinder with a 45-point All Cross-type AF System"
+    ],
+    "Price": 499.99,
+    "Quantity_Available": 30,
+    "no_of_views": 1100,
+    "rating": 4.6
+  }
+]
