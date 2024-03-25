@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>G_Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bigshot+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!-- Header  -->
+  <header class="header">
+    <div class="container flex header__container">
+      <a href="./index.html" class="header__logo flex" role="link" aria-labelledby="Link to homepage">
+        <img loading="lazy" src="logo.svg" alt="logo" role="presentation">
+      </a>
+
+     
+
+
+
+    </div>
+  </header>
+    
+  <main class="flex products__section">
+    <article class=" w-full">
+      <div class="container">
+        <h3 class="popular__section-heading">Confirm and pay</h3>
+
+        <hr class="popular__section-divider">
+        <div class="gap full flex justify-between">
+          <ul class="w-full" id="basketMain">
+            <li>
+
+            </li>
+          </ul>
+
+          <aside class="basket-aside w-full">
+            <div class="w-full border">
+              <section class="w-full basket__summary">
+                <header for="basket">
+                  <h4>BASKET SUMMARY</h4>
+                </header>
+
+                <div class="basket__summary-main">
+                  <div class="flex justify-between">
+                    <p class="text-medium">Subtotal</p>
+                    <span class="price-total" id="total">--</span>
+                  </div>
+
+                  <span class="text-sm text-secondary">Delivery fees not included yet.</span>
+                </div>
+  
+                <!-- <footer>
+                  <a href="./checkout.html" class="cart__btn justify-center w-full">Proceed to Checkout</a>
+                </footer> -->
+              </section>
+            </div>
+          </aside>
+        </div>
+          
+        </div>
+      </div>
+    </article>
+    
+  </main>
+
+  <footer class="footer">
+    <div class="container grid grid-cols-2">
+      <div class="footer-box flex item-center justify-center">
+        <div class="text-center">
+          <h4 class=""><strong>Returning an item</strong></h4>
+          <br>
+          <p class="">For returns, product support and repairs</p>
+          <a href="#" class="link"><strong>Learn more here</strong></a>
+        </div>
+      </div>
+      <div class="footer-box flex item-center justify-center">
+        <div class="text-center">
+          <h4 class=""><strong>Payment methods</strong></h4>
+          <br>
+          
+          <div class="flex footer-gap">
+            <img loading="lazy" src="./maestro.png" alt="maestro">
+            <img loading="lazy" src="./mastercard.png" alt="mastercard">
+            <img loading="lazy" src="./Nectar.png" alt="Nectar">
+          </div>
+          <div class="flex footer-gap">
+            <img loading="lazy" src="./One4All.png" alt="One4All">
+            <img loading="lazy" src="./visa.webp" alt="visa">
+            <img loading="lazy" src="./paypal.png" alt="paypal">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <hr>
+    <div class="footer-box flex item-center justify-center">
+      <p>© 2024. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./checkout.js" defer>
+    // fetchData()
+  </script>
+  <script>
+  </script>
+</body>
+</html>

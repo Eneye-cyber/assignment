@@ -33,84 +33,58 @@
         <a href="./index.html" class="flex-column item-center justify-center">
           <img loading="lazy" src="./heart.svg" alt="favourites" role="presentation">
           <p>Wishlist</p>
-          <div id="wishlistBadge" class="badge">3</div>
         </a>
 
-        <a href="./basket.html" class="flex-column item-center justify-center">
+        <a href="./index.html" class="flex-column item-center justify-center">
           <img loading="lazy" src="./cart.svg" alt="favourites" role="presentation">
           <p>Trolley</p>
-          <div id="basketBadge" class="badge">3</div>
         </a>
-        </nav>
+      </nav>
 
     </div>
   </header>
     
-  <main class="flex">
-    <aside class="filter">
-      <div class="filter__container">
-        <div class="filter__inner">
-          <h4 class="filter-heading">Filter by</h4>
-
-          <hr class="filter-divider">
-
-          <div class="flex justify-between">
-            <h4 class="blue">Categories</h4>
-            <!-- <img src="./chevron-down.svg" alt="down"> -->
-          </div>
-
-          <div id="filter" class="filter__input w-full checkbox">
-
-          </div>
-        </div>
-      </div>
-    </aside>
-    
-    <section class="products__section w-full pad-sm">
+  <main class="flex products__section">
+    <article class=" w-full">
       <div class="container">
         <h3 class="popular__section-heading">Products</h3>
 
         <hr class="popular__section-divider">
+        <div class="gap full flex justify-between">
+          <ul class="w-full" id="basketMain">
+            <li>
 
-        <div id="productContainer" class="flex popular__section-flex">
+            </li>
+          </ul>
+
+          <aside class="basket-aside w-full">
+            <div class="w-full border">
+              <section class="w-full basket__summary">
+                <header for="basket">
+                  <h4>BASKET SUMMARY</h4>
+                </header>
+
+                <div class="basket__summary-main">
+                  <div class="flex justify-between">
+                    <p class="text-medium">Subtotal</p>
+                    <span class="price-total" id="total">--</span>
+                  </div>
+
+                  <span class="text-sm text-secondary">Delivery fees not included yet.</span>
+                </div>
+  
+                <footer>
+                  <a href="./checkout.html" class="cart__btn justify-center w-full">Proceed to Checkout</a>
+                </footer>
+              </section>
+            </div>
+          </aside>
+        </div>
           
         </div>
       </div>
-    </section>
-
-    <div class="cart__modal" id="cartDialog">
-      <div class="bg__overlay">
-        <div class="cart__container" role="dialog" aria-labelledby="cart dialog box">
-          <header class="cart__header item-center justify-between">
-            <h4>Added to trolley</h4>
-            <button onclick="closeDialog()" class="cart__button-close">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#333" width="24" height="24">
-                <path d="M12 10.94l6.97-6.97a.75.75 0 0 1 1.06 1.06L13.06 12l6.97 6.97a.75.75 0 0 1-1.06 1.06L12 13.06l-6.97 6.97a.75.75 0 0 1-1.06-1.06L10.94 12 3.97 5.03a.75.75 0 0 1 1.06-1.06L12 10.94z"></path>
-              </svg>
-            </button>
-          </header>
-
-          <div class="cart__content">
-            <section class="cart__content-container">
-              <div class="flex">
-                <div class="cart__content-image">
-                  <img src="" id="cartImage" alt="clothing">
-                </div>
-
-                <div class="cart__content-text w-full">
-                  <div class="blue medium"> 1x Added</div>
-                  <a href="#" id="cartItem"></a>
-                </div>
-              </div>
-            </section>
-          </div>
-          <footer class="cart__footer flex">
-            <button onclick="closeDialog()" class="cart__btn cart__btn-outline justify-center w-full">Continue Shopping</button>
-            <a href="./basket.html" class="cart__btn justify-center w-full">Go to Trolley</a>
-          </footer>
-        </div>
-      </div>
-    </div>
+    </article>
+    
   </main>
 
   <footer class="footer">
@@ -148,6 +122,6 @@
     </div>
   </footer>
 
-  <script src="./main.js" defer></script>
+  <script src="./cart.js" defer></script>
 </body>
 </html>
